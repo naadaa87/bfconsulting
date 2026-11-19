@@ -9,7 +9,9 @@
      · Web3Forms  : https://web3forms.com →  "https://api.web3forms.com/submit"
        (Web3Forms 사용 시 WEB3FORMS_KEY 에 발급받은 access key 를 넣어주세요)
    ========================================================================== */
-var FORM_ENDPOINT = "";
+/* 2026-11-19: 최시준 홈페이지 '전체 문의'가 대신 받아 저장하고 메일로 알려 줍니다.
+   비우면 예전처럼 메일 앱을 여는 방식으로 돌아갑니다. */
+var FORM_ENDPOINT = "https://choisijun.com/api/lead";
 var WEB3FORMS_KEY = "";
 var BFC_EMAIL = "bfc0118@gmail.com";
 
