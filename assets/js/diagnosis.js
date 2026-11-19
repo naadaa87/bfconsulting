@@ -329,7 +329,7 @@
       weak[0].name + "(" + scores[weak[0].k] + "), " + weak[1].name + "(" + scores[weak[1].k] + ") · 추천: " + track.k;
 
     html += '<div class="btn-row noprint" style="justify-content:center;margin-bottom:16px">' +
-      '<a class="btn btn--primary btn--lg" href="contact.html?d=' + encodeURIComponent(summary) +
+      '<a class="btn btn--primary btn--lg" href="contact?d=' + encodeURIComponent(summary) +
       '">이 결과로 상담 신청하기</a>' +
       '<button class="btn btn--ghost btn--lg" type="button" data-print>결과 인쇄 · PDF 저장</button>' +
       '<button class="btn btn--ghost btn--lg" type="button" data-restart>다시 진단하기</button></div>';
